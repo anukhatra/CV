@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <script src="https://kit.fontawesome.com/5c4dbfd2e6.js" crossorigin="anonymous"></script>
+    <style>  
+            html {
+            scroll-behavior: smooth;
+        }
+
+            body {
+                color: green;
+                font-family: 'Times New Roman', Times, serif;
+          
+            }
+    
+            /* For mobile */
+    
+            .content {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-auto-rows: minmax(100px, auto);
+                grid-gap: 1px;
+                max-width: 960px;
+                margin: 0 auto;
+                font-size: 20px;
+               
+                grid-template-areas:
+                    "header header header header"
+                    "main main main main"
+                    "main main main main"
+                    "main main main main"
+                    "main main main main"
+                    "main main main main"
+                    "footer footer footer footer";
+                
+                /* replace with . if need blank
+                  "section . section section" */
+    
+    
+            }
+            
+            @media screen and (min-width: 760px) {
+                    .content {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-auto-rows: minmax(100px, auto);
+                        grid-gap: 1px;
+                        max-width: 960px;
+                        margin: 0 auto;
+                        font-size: 20px;
+                        
+                        grid-template-areas:
+                            "header header header header"
+                            "main main main main"
+						"main main main main"
+						"main main main main"
+						"main main main main"
+						"main main main main"
+                            "footer footer footer footer";
+                        /* replace with . if need blank
+                    "section . section section" */
+                    
+                    }
+                    .profilePic {
+                    height: 130px;
+                    width: 130px;
+    
+                }
+            }
+    
+            header {
+                grid-area: header;
+                text-align: right;
+               
+            }
+    
+            main {
+                grid-area: main;
+    
+            }
+    
+ 
+    
+            footer {                
+                grid-area: footer;
+                text-align: center;
+            }
+    
+            .content>* {
+                background-color: #333;
+                padding: 30px;
+            }
+    
+            /* profile pic */
+            .profilePic {
+                height: 100px;
+                width: 100px;
+    
+            }
+            .leftalign{
+                text-align: left;
+            }
+            .center{
+                text-align: center;
+            }
+            .right{
+            text-align: right;
+            }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="content">
+        <header  id="scroll1">
+                <div  class="right"><a href="#scroll2">  <i class="fas fa-arrow-circle-up right"></i></a></div>
+            continue...
+        
+        </header>
+        <main class="keyskills">
+             
+                        <h2>KEY SKILLS AND COMPETENCIES</h2>
+                        <h3> TECHNICAL SKILLS</h3>
+                        <ul>
+                            <li>Languages
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </li>
+                            <li>Office Tools
+                                <ul>
+                                    <li>Microsoft Office Suites - Word, Excel, PowerPoint, Outlook</li>
+                                </ul>
+                            </li>
+                        </ul>
+                
+                        <h2> PERSONAL</h2>
+                        <ul>
+                            <li>Can think progressively while working in a variety of roles. </li>
+                            <li>A good learner </li>
+                            <li>Learning Swedish </li>
+                        </ul>
+
+            
+        </main>
+        <footer id="scroll2">
+                <div class="center"><a href="index.html" style="color: azure; text-align: center">Go to 1st page</a></div>
+                <div class="right"><a href="#scroll1" >   <i class="fas fa-arrow-circle-down"></i></a></div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

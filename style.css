@@ -1,0 +1,111 @@
+
+        body {
+            color: green;
+            font-family: 'Times New Roman', Times, serif;
+      
+        }
+
+        /* For mobile */
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap: 1px;
+            max-width: 960px;
+            margin: 0 auto;
+            font-size: 25px;
+           
+            grid-template-areas:
+                "header header header header"
+                "aside aside aside aside"
+                "nav nav nav nav"
+                "nav nav nav nav"
+                "section section section section"
+                "section section section section"
+                "footer footer footer footer";
+            
+            /* replace with . if need blank
+              "section . section section" */
+
+
+        }
+        
+        @media screen and (min-width: 760px) {
+                .content {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-auto-rows: minmax(100px, auto);
+                    grid-gap: 1px;
+                    max-width: 960px;
+                    margin: 0 auto;
+                    font-size: 20px;
+                    
+                    grid-template-areas:
+                        "header header header header"
+                        "aside aside nav nav"
+                        "aside aside nav nav"
+                        "section section section section"
+                        "section section section section"
+                        "footer footer footer footer";
+                    /* replace with . if need blank
+                "section . section section" */
+                
+                }
+                .profilePic {
+                height: 130px;
+                width: 130px;
+
+            }
+        }
+
+        header {
+            grid-area: header;
+           
+        }
+
+        main {
+            grid-area: main;
+
+        }
+
+        aside {
+            grid-area: aside;
+
+        }
+
+        section {
+            grid-area: section;
+
+        }
+
+        nav {
+            grid-area: nav;
+           
+        }
+
+        footer {
+            grid-area: footer;
+        }
+
+        .content>* {
+            background-color: #333;
+            padding: 30px;
+        }
+
+        /* profile pic */
+        .profilePic {
+            height: 100px;
+            width: 100px;
+
+        }
+        .leftalign{
+            text-align: left;
+        }
+        .center{
+            text-align: center;
+        }
+        .right{
+            text-align: right;
+            }
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c4dbfd2e6.js" crossorigin="anonymous"></script>
+    <style>
+
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <header id="scroll1">
+            <h2 class="center"> Curriculum Vitae</h2>
+            <div  class="right"><a href="#scroll2">  <i class="fas fa-arrow-circle-up right"></i></a></div>
+        </header>
+
+
+        <aside class="leftalign aside">
+            <h2>Anu Chaudhary</h2>
+            <p style="color:blue;"><u>anu.khatra@gmail.com</u></p>
+            <p> +46 769584364</p>
+            <p>DOB: 21-12-1984</p>
+            <p>Broad 1 years of background where
+                I’ve worked closely with customers, indi-vidually as well as in groups.
+            </p>
+            <ul>
+                <li>Positive and outgoing personality. </li>
+                <li>I have significant experience in working with people from other countries and cul-tures.</li>
+            </ul>
+        </aside>
+        <nav class="leftalign nav">
+            <img class="profilePic" src="mypic_1.jpg" alt="picture">
+            <h3>Profile</h3>
+            <p>Front-end-developer(HTML ,CSS ,Javascript)</p>
+
+            <h3>Education</h3>
+
+            <ul>
+                <li>Bachelor in Information Technology (IT) </li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+                <li> English (Fluent) </li>
+                <li> Hindi (Native Language) </li>
+                <li> Swedish intermediate </li>
+            </ul>
+            <h4>Visa</h4>
+            <ul>
+                <li>Work permit </li>
+            </ul>
+        </nav>
+        <section class="leftalign section">
+            <h2>Assignment History</h2>
+            <h5>Teacher at St. Thomas School (June 2014 – March 2015)</h5>
+            <hr>
+
+            <h3>Worked as a teacher at St. Thomas School (India).</h3>
+            <p>
+
+                <ol type="1">
+                    <li>Worked as a computer teacher. My responsibility was to teach computer. I had taught class 4, 5
+                        and 9. </li>
+                    <li>Conducted some lectures in class 11th were I taught them object oriented programming concept.
+                    </li>
+                    <li>As a Class teacher I had several responsibility example maintain attendance register, maintain
+                        other rec-ords related to students, help teacher when they had some issues related to computer.
+                    </li>
+                    <li>Also had done HTML practical with student as a part of computer club.</li>
+
+
+                </ol>
+                As a person, I am a good communicator and a team player with a high degree of structure and informality.
+                I am also open minded, flexible, responsive and proactive.
+            </p>
+         
+        </section>
+        
+        <footer id="scroll2">
+            <div class="center"><a href="cv_page2.html" style="color: azure; text-align: center">Go to 2nd page</a></div>
+            <div class="right"><a href="#scroll1" >   <i class="fas fa-arrow-circle-down"></i></a></div>
+        </footer>
+    </div>
+</body>
+
+</html>
